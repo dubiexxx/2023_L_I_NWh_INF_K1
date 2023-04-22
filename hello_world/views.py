@@ -4,7 +4,7 @@ from hello_world.formater import SUPPORTED, PLAIN
 from flask import request
 
 
-moje_imie = "Vladyslav"
+moje_imie = "Vlad"
 msg = "Hello World!"
 
 
