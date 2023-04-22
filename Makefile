@@ -13,7 +13,7 @@ docker_build:
 		docker build -t hello-world-printer .
 
 docker_run: docker_build
-        docker run  -- name hello-world-printer-dev -d -p 5000:5000 hello-world-printer
+		docker run  -- name hello-world-printer-dev -d -p 5000:5000 hello-world-printer
 USERNAME=dubiex
 TAG=$(USERNAME)/hello-world-printer
 docker_push: docker_build
